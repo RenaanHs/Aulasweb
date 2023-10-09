@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/OIP\ \(1\).jpg);
+}
+h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+header {
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+ul{
+    margin: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, red,yellow);
+    justify-content: center;
+}
+li{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+}
+li:hover{
+    background-image: linear-gradient(to left,  red,yellow);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+
+} 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+}
+.aside, .footer{
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+    padding: 20px 0px;
+}
+.aside{
+    color: #fff;
+    text-align: center;
+    grid-area: aside;
+}
+.main{
+    grid-area: main;
+    text-align: center;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 20px;
+
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}  
+td, th{
+    border: 1px solid rgb(4, 2, 2);
+    padding: 8px;
+}
+th{
+    text-align: center;
+    color: #fff;
+}
+td{
+    text-align: left;
+    color: #fff;
+}
+.img{
+    width: 100%;
+}
+.ilu{
+    background-color: red;
+    background-image: url(./img/grif.jpg);
+}
+.ila{
+    background-color: green;
+    background-image: url(./img/sons.jpg);
+}
+.ile{
+    background-color: yellow;
+    background-image: url(./img/lufa.jpg);
+}
+.ili{
+    background-color: blue;
+    background-image: url(./img/corv.jpg);
+}
+.quad{
+    background-image: url(./img/gxs.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 310px;
+
+}
+.cas{
+    background-image: url(./img/3ebb8b86-6431-4ad7-8d09-9f4804beefd0_source-aspect-ratio_default_0.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.mov{
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    background-image: url(./img/WWD-Max_BTH_Page_Promo_Right_Fade.png);
+    background-size: cover;
+    height: 500px;
+}
