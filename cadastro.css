@@ -29,24 +29,23 @@ form{
     width: 100% ;    
 }
 input[type=text] {
+    background-color: transparent;
     border: 2px solid #363636;
     border-radius: 5px;  
     width: 190px;
     height: 40px;
     padding:10px;
     box-sizing: border-box;
-    opacity: 0.5;
 }
 select{
+    background-color: transparent;
+    color: black;
     border: 1px solid black;
     padding: 5px 5px;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;
     font-family: Arial, sans-serif;
-    font-size: 13;
-    width: 125px;
-    height: 45px;  
+    font-size: 13;  
     border-radius: 2px;
 }
 .Cancelar{
