@@ -139,6 +139,7 @@ td{
     color: #fff;
     background-image: url(./img/WWD-Max_BTH_Page_Promo_Right_Fade.png);
     background-size: cover;
+    background-position: center;    
     border-radius: 10px;
     height: 500px;
     font-size: 30px;
