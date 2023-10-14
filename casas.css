@@ -10,7 +10,6 @@ h1{
     font-size: 80px;
     color: white;
     font-family: 'Dancing Script', cursive;
-
 }
 p{
     text-align: justify;
@@ -24,7 +23,6 @@ header {
     padding: 10px 0px;
     text-align: center;
 }
-
 ul{
     margin: 0px;
     height: 50px;
@@ -32,6 +30,7 @@ ul{
     align-items: center;
     background-image: linear-gradient(to right, red,yellow);
     justify-content: center;
+    text-shadow: 4px 5px 10px rgba(0, 0, 0.7);
 }
 li{
     display: inline-block;
@@ -54,12 +53,12 @@ li:hover{
     "footer"
 }
 .header{
-    background-size: cover;
-    background-position: center;
     grid-area: header;
     text-align: center;
     height: 220px;
     font-family: serif;
+    color: #fff;
+    padding: 10px 0px;
 }
 .main{
     grid-area: main;
@@ -68,8 +67,8 @@ li:hover{
     flex-wrap: nowrap;
     justify-content: start;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .footer{
     grid-area: footer;
