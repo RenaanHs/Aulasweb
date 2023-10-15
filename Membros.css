@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Playfair+Display:ital,wght@1,500&display=swap');
-header {
-    padding: 10px 0px;
-    text-align: center;
-    color: #fff;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -22,29 +17,6 @@ h2{
     margin-top: 0;
     padding-top: 20px;
 }
-
-ul{
-    margin: 0px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(to right, red,yellow);
-    justify-content: center;
-}
-
-li{
-    display: inline-block;
-    color: #fff;
-    padding: 10px;
-}
-
-li:hover{
-    background-image: linear-gradient(to left,  red,yellow);
-    border-left: 1px solid rgba(0, 0, 0, 0);
-    border-right: 1px solid rgba(0, 0, 0, 0);
-
-}
-
 .cadastro{
     color: #fff;
 }

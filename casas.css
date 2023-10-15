@@ -17,33 +17,6 @@ p{
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
-
-header {
-    color: #fff;
-    padding: 10px 0px;
-    text-align: center;
-}
-ul{
-    margin: 0px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(to right, red,yellow);
-    justify-content: center;
-    text-shadow: 4px 5px 10px rgba(0, 0, 0.7);
-}
-li{
-    display: inline-block;
-    color: #fff;
-    padding: 10px;
-}
-li:hover{
-    background-image: linear-gradient(to left,  red,yellow);
-    border-left: 1px solid rgba(0, 0, 0, 0);
-    border-right: 1px solid rgba(0, 0, 0, 0);
-
-} 
-
 .grid-container{
     display: grid;
     grid-template-rows: 260px auto 100px;
@@ -103,3 +76,14 @@ img{
     flex-basis: 200px;
     margin: 5px;
 }
+@media screen and (max-width: 768px) {
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+    h1{
+        font-size: 70px;
+    }
+  }
