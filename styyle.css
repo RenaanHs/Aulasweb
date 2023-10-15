@@ -1,0 +1,126 @@
+header {
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+ul{
+    margin: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, green,red, yellow);
+    justify-content: center;
+    text-shadow: 4px 5px 10px rgba(0, 0, 0.7);
+}
+li{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+}
+li:hover{
+    background-image: linear-gradient(to left,  red,yellow);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+a{
+    text-decoration: none;
+} 
+table{
+    border-collapse: collapse;
+    width: 100%;
+}  
+td, th{
+    border: 1px solid rgb(4, 2, 2);
+    padding: 8px;
+}
+th{
+    text-align: center;
+    color: #fff;
+}
+td{
+    text-align: left;
+    color: #fff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+}
+.aside, .footer{
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+    text-align: center;
+    height: 220px;
+    font-family: serif;
+    color: #fff;
+    padding: 10px 0px;
+}
+.aside{
+    color: #fff;
+    text-align: center;
+    grid-area: aside;
+    margin-top: 120px;
+}
+.main{
+    grid-area: main;
+    text-align: center;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.img{
+    width: 100%;
+}
+.ilu{
+    background-color: red;
+    background-image: url(./img/grif.jpg);
+}
+.ila{
+    background-color: green;
+    background-image: url(./img/sons.jpg);
+}
+.ile{
+    background-color: yellow;
+    background-image: url(./img/lufa.jpg);
+}
+.ili{
+    background-color: blue;
+    background-image: url(./img/corv.jpg);
+}
+
+.cas{
+    background-image: url(./img/houses.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.mov{
+    margin-top: 30px;
+    color: #fff;
+    background-image: url(./img/WWD-Max_BTH_Page_Promo_Right_Fade.png);
+    background-size: cover;
+    border-radius: 10px;
+    height: 500px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
