@@ -84,4 +84,9 @@ select{
     height: 45px;  
     border-radius: 2px;
 }
-
+.footer{
+    grid-area: footer;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
