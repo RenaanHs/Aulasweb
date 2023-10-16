@@ -87,6 +87,6 @@ select{
 .footer{
     grid-area: footer;
     text-align: center;
-    color: #fff;
+    color: black;
     margin-top: 40px;
 }
