@@ -111,8 +111,8 @@ img{
     margin-top: 30px;
     color: #fff;
     background-image: url(./img/WWD-Max_BTH_Page_Promo_Right_Fade.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
     height: 500px;
     width: 100%;
